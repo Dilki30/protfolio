@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilki Nimeshika | Fullstack Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">Dilki<span class="dot">.</span></h1>
+            <div class="loader-bar"><div class="progress"></div></div>
+        </div>
+    </div>
+
+    <div id="three-container"></div>
+
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Dilki<span class="dot">.</span></a>
+            <div class="nav-social-links">
+                <a href="https://github.com/Dilki30" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dilkinimeshika" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-card">
+            <div class="project-badge"><i class="fas fa-rocket"></i> New Project Live</div>
+            <h1 class="glow-text">Smart Budget <span class="gradient-accent">Management System</span></h1>
+            <p class="hero-tagline">Hi, I'm Dilki Nimeshika. A Computer Science & Mathematics student building software engines that analyze data, track metrics, and optimize real-world operations.</p>
+            <div class="hero-actions">
+                <a href="https://lnkd.in/gdEf9XDW" target="_blank" class="btn btn-glow"><i class="fas fa-external-link-alt"></i> View Live Budget App</a>
+                <a href="#projects" class="btn btn-outline">Explore Code Repositories</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="offer-ribbon">
+        <div class="ribbon-slider">
+            <span><i class="fas fa-chart-pie"></i> Real-Time Analytics Built</span>
+            <span><i class="fas fa-brain"></i> AI Expense Insights Integrated</span>
+            <span><i class="fas fa-file-pdf"></i> Professional PDF Generators Deployed</span>
+        </div>
+    </div>
+
+    <section class="section services-section">
+        <div class="section-heading-block">
+            <h2>Core Competencies</h2>
+            <p>Modern production software engineering designed to solve logic puzzles and manage structured data pipelines.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-box">
+                <div class="service-icon-wrap"><i class="fas fa-chart-line"></i></div>
+                <h3>Data & Analytics Interfaces</h3>
+                <p>Developing interactive data tracking arrays using Tailwind CSS, Bootstrap, Chart.js, and complex calculations.</p>
+                <a href="#contact" class="service-link">Inquire System Scope <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon-wrap"><i class="fas fa-terminal"></i></div>
+                <h3>Fullstack Application Logic</h3>
+                <p>Handling complete secure CRUD execution workflows, relational normalization routines, and client-side processing matrices.</p>
+                <a href="#contact" class="service-link">Inquire System Scope <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon-wrap"><i class="fas fa-calculator"></i></div>
+                <h3>Mathematical Optimization</h3>
+                <p>Applying clean algorithmic models, matrix operations, and custom reporting parameters to real-world datasets.</p>
+                <a href="#contact" class="service-link">Inquire System Scope <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="section-heading-block">
+            <h2>Live GitHub Repositories</h2>
+            <p>Streaming open-source project frameworks directly from my core GitHub logs.</p>
+        </div>
+        <div id="projects-target-grid" class="projects-grid">
+            <div class="api-loading-state">Syncing live repository data layers...</div>
+        </div>
+    </section>
+
+    <section class="section proof-section">
+        <div class="proof-container">
+            <div class="proof-info">
+                <h2>Why Work Together?</h2>
+                <p>I blend rigorous scientific reasoning with standard programming frameworks to deliver performant, modular web codebases.</p>
+            </div>
+            <div class="proof-list-card">
+                <ul>
+                    <li><i class="fas fa-check-circle accent-color-icon"></i> <strong>End-To-End CRUD Architectures:</strong> Secure state controls built for complete reliability.</li>
+                    <li><i class="fas fa-cubes accent-color-icon"></i> <strong>Clean Documented Scripts:</strong> Structured codebases featuring modular design patterns.</li>
+                    <li><i class="fas fa-file-invoice-dollar accent-color-icon"></i> <strong>Client-Focused Tooling:</strong> Live reporting modules like custom chart rendering and dynamic jsPDF processing.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="contact-card">
+            <h2>Connect Secure Node</h2>
+            <form id="secure-contact-form">
+                <div class="form-input-group">
+                    <input type="text" id="client-name" name="from_name" required placeholder="Your Identity Name / Organization">
+                </div>
+                <div class="form-input-group">
+                    <input type="email" id="client-email" name="reply_to" required placeholder="Network Routing Email Link">
+                </div>
+                <div class="form-input-group">
+                    <textarea id="client-message" name="message" rows="5" required placeholder="Outline system blueprints, specific code requests, or project requirements..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-glow form-submit-btn">Deploy Contact Transmission <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <a href="https://wa.me/947XXXXXXXX" id="whatsapp-widget" target="_blank" title="Ping Channel Via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div id="chatbot-wrapper">
+        <div id="chat-header">
+            <div class="bot-header-title"><i class="fas fa-robot"></i> Dilki Automated Assistant</div>
+            <button id="close-chat-btn">&times;</button>
+        </div>
+        <div id="chat-body">
+            <p class="bot-bubble">Welcome! I am Dilki's portfolio AI companion. Ask me about the Smart Budget Management System, my GitHub configurations, or tech stacks!</p>
+        </div>
+        <div id="chat-input-row">
+            <input id="user-input" type="text" placeholder="Inquire about the budget system, tech specs...">
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    
+    <button id="chat-toggle-widget" title="Open Automation Chat">
+        <i class="fas fa-code-branch"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
